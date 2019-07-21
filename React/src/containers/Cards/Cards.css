@@ -1,0 +1,7 @@
+.Cards{
+    background-color: orange;
+    flex: 1;
+    padding: 3rem; 
+    overflow: auto;
+    height: calc(100vh - 6.4rem);
+}

@@ -1,0 +1,50 @@
+.dropDown {
+    color: inherit;
+    background-color: inherit;
+    cursor: pointer;
+}
+ .dropDown_caret_down::after {
+    margin-left: 5px;
+    position: relative;
+    top: -2px;
+    content: "";
+    display: inline-block;
+    color: var(--primary-color);
+    height: 0;
+    width: 0;
+    border-top: .8rem solid var(--primary-color);
+    border-left: .8rem solid transparent;
+    border-right: .8rem solid transparent;
+}
+.dropDown_caret_up::after {
+    margin-left: 5px;
+    position: relative;
+    top: -2px;
+    content: "";
+    display: inline-block;
+    color: var(--primary-color);
+    height: 0;
+    width: 0;
+    border-bottom: .8rem solid var(--primary-color);
+    border-left: .8rem solid transparent;
+    border-right: .8rem solid transparent;
+}
+
+.dropDown_menu{
+    position: absolute;
+    z-index: 500;
+    margin-top: .5rem;
+    margin-left: -10px;
+    background-color: inherit;
+    color: inherit;
+    padding: .8rem;
+    border-radius: 5px;
+}
+
+.dropDown_menu > *:not(:last-child){
+    padding-bottom: .7rem;
+    text-transform: capitalize;
+    display: block;
+    color: inherit;
+    background-color: inherit;
+}

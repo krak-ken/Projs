@@ -1,0 +1,30 @@
+.navbar {
+    height: 6.4rem;
+    background-color: var(--primary-bgColor);
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.navbar_hero{
+    font-size: 3.5rem;
+    margin-left: 2.5rem;
+    padding: 5px;
+    cursor: pointer;
+}
+.navbar_items{
+    display: flex;
+    font-size: 2.2rem;
+    margin-right: 2rem;
+    background-color: inherit;
+}
+.nav_item{
+    margin-right: 1rem;
+    padding: 1rem;
+    color: var(--primary-color);
+    background-color: inherit;
+}
+.nav_item > *{
+    color: inherit;
+    background-color: inherit;
+    cursor: pointer;
+}

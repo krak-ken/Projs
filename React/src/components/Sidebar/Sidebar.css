@@ -1,0 +1,30 @@
+.sidebar{
+    height: calc(100vh - 6.4rem);
+    background-color: coral;
+    padding: 2rem;
+}
+/* .sidebar > *::before {
+    content: '';
+    width: 100px;
+    height: 10px;
+    border: 5px solid wheat;
+    border-radius: 100%;
+    color: antiquewhite
+} */
+.sidebar > *:not(:first-child) {
+    font-size: 2.8rem;
+    color: var(--secondary-color);
+    margin: 0 2rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+.sidebar > *:not(:first-child):hover {
+    color: var(--secondary-color-hover);
+    background-color:var(--secondary-bgColor-hover);
+}
+.title{
+    font-size: 3.2rem;
+    font-weight: 540;
+    color: var(--primary-title);
+    margin: 0 2rem 1rem 2rem;
+}

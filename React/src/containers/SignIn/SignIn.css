@@ -1,0 +1,75 @@
+.SignIn{
+    background-color: saddlebrown;
+    padding: 5rem;
+    color: azure;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.SignIn_Form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    padding: 4rem;
+    border-radius: 3rem;
+}
+.Title{
+    font-size: 3.5rem;
+    padding-bottom: 1.5rem;
+}
+.Option{
+    padding-bottom: 1.5rem;
+    font-size: 2.3rem;
+}
+.Option a{
+    cursor: pointer;
+}
+.Form_Group{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 2rem;
+    position: relative;
+}
+.Form_Group label{
+    font-size: 2.3rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    transition: all .3s;
+}
+.Form_Group input{
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 2.5rem;
+    color: rgb(77, 72, 72);
+}
+.Form_Placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color:rgb(77, 72, 72, 0.1);
+    position: absolute;
+    top: 4.75rem;
+    left: 2.25rem;
+    font-weight: 400;
+}
+.Active{
+    background-color: rgba(56, 55, 55, 0.3);
+    padding: 1rem;
+    color: rgb(235, 198, 143);
+}
+@keyframes label{
+    0%{
+
+    }
+    50%{
+
+    }
+    100%{
+
+    }
+}

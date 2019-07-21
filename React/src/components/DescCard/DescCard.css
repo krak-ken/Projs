@@ -1,0 +1,45 @@
+.DescCard{
+    font-size: 2rem;
+    color: bisque;
+    background-color: orchid;
+    border-radius: 1.6rem;
+}
+.DescCard_Profile{
+    display: flex;
+}
+.FlexRow{
+    display: flex;
+    padding: 1.5rem;
+    flex-wrap: wrap;
+}
+.DescCard_img{
+    width: 25rem;
+    height: 25rem;
+    border-top-left-radius: 1.6rem;
+}
+.DescCard_Info{
+    margin: 2rem;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.DescCard_Info > *{
+    padding: 1rem;
+}
+.DescCard_Info:last-child{
+    padding-bottom: 0;
+}
+.DescCard_Time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    margin: .5rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+.DescCard_Time > *:first-child{
+    margin-bottom: 1rem;
+}
